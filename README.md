@@ -1,50 +1,43 @@
-# React + TypeScript + Vite
+# **Trade Exchnage Algorithm using TypeScript React and Vite** <br>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Trade Exchange Algorithm is designed to optimize and automate trade exchanges by analyzing market data, identifying trading opportunities, and executing transactions based on predefined strategies. This algorithm can be used in financial markets, cryptocurrency trading, and other exchange-based trading systems.
 
-Currently, two official plugins are available:
+Features <br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Automated Trade Execution: Executes trades based on predefined conditions.<br>
 
-## Expanding the ESLint configuration
+Market Analysis: Analyzes historical and real-time market data.<br>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Risk Management: Implements stop-loss and take-profit mechanisms.<br>
 
-- Configure the top-level `parserOptions` property like this:
+Multi-Exchange Support: Compatible with various trading platforms.<br>
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Customizable Strategies: Supports user-defined trading rules and algorithms.<br>
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+**Installation:<br>**
+1. Clone the Repo: ``git clone https://github.com/devabhisheksinghrautela/tradeexchangealgo.git `` <br>
+2. Navigate the Project Directory: ``cd tradeexchangealgo`` <br>
+3. Install Dependencies: 
+   ``npm createvite@latest``
+4. Install Node Modules: 
+   ``npm install`` 
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+ 5. Install Typescript:
+   ``npm install -global typescript``
+   
+**Contributing:**
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Contributions are welcome! To contribute:
+
+Fork the repository.
+Create a new branch.
+Commit your changes.
+Submit a pull request.
+
+**License:**
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contact:
+
+For questions or support, open an issue on GitHub or contact abhisheksinghrautela01@gmail.com.
